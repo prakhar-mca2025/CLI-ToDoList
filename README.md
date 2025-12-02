@@ -89,15 +89,15 @@ Usage Example
 
 Binary File Storage:
   The app saves all tasks to:tasks.dat
-    Automatically created on first run
-    Overwritten each time tasks change
-    Stores raw Task objects (fixed-size, safe for binary operations)
+    • Automatically created on first run.
+    • Overwritten each time tasks change.
+    • Stores raw Task objects (fixed-size, safe for binary operations).
 
 Future Improvements
-  • Edit task descriptions
-  • Add due dates or priority levels
-  • Use JSON or plain text instead of binary
-  • Add colorized terminal output
-  • Add search or filtering
-  • Export tasks to a readable file
+  • Edit task descriptions.
+  • Add due dates or priority levels.
+  • Use JSON or plain text instead of binary.
+  • Add colorized terminal output.
+  • Add search or filtering.
+  • Export tasks to a readable file.
   
