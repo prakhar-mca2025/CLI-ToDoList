@@ -1,37 +1,33 @@
 ToDoCLI — A Simple C++ Command-Line To-Do List Manager (Introduction)
 
- • A lightweight and efficient command-line To-Do List application built in C++.
- • Tasks are stored persistently using binary file storage, ensuring your tasks remain saved across program restarts.
- • This project demonstrates:
- • Object-oriented design (Task + ToDoList classes)
- • Binary file handling in C++
- • Basic menu-driven CLI interaction
- • Clean separation of concerns
+  • A lightweight and efficient command-line To-Do List application built in C++.
+  • Tasks are stored persistently using binary file storage, ensuring your tasks remain saved across program restarts.
+  • This project demonstrates:
+  • Object-oriented design (Task + ToDoList classes)
+  • Binary file handling in C++
+  • Basic menu-driven CLI interaction
+  • Clean separation of concerns
 
 Features:
-• Add Tasks
-
-Create new tasks with custom descriptions.
-(Implemented in addTask() of ToDoList.cpp 
-
-ToDoList
-
-)
-
-• View All Tasks
-  Displays task number, description, and status (Completed / Pending).
-  (Implemented in viewTasks() 
-
-• Mark Tasks as Completed
-  Updates the task state and persists it.
-  (Implemented in completeTask() 
-
-• Delete Tasks
-  Removes tasks permanently from the list.
-  (Implemented in deleteTask() 
-
-• Persistent Storage
-  All tasks are saved into a binary file: tasks.dat
+ • Add Tasks
+ 
+ Create new tasks with custom descriptions.
+ (Implemented in addTask() of ToDoList.cpp 
+ 
+ • View All Tasks
+   Displays task number, description, and status (Completed / Pending).
+   (Implemented in viewTasks() 
+ 
+ • Mark Tasks as Completed
+   Updates the task state and persists it.
+   (Implemented in completeTask() 
+ 
+ • Delete Tasks
+   Removes tasks permanently from the list.
+   (Implemented in deleteTask() 
+ 
+ • Persistent Storage
+   All tasks are saved into a binary file: tasks.dat
 
 
 Project Structure:
