@@ -62,37 +62,37 @@ main.cpp
     4. Delete Task <br>
     5. Exit  <br>
 
-How to Compile & Run
-  • Using g++
-  • g++ main.cpp Task.cpp ToDoList.cpp -o todo
-    ./todo
+How to Compile & Run<br>
+  • Using g++<br>
+  • g++ main.cpp Task.cpp ToDoList.cpp -o todo<br>
+    ./todo<br>
     
     
-Usage Example
-  --- TO DO LIST MENU ---
-  1. Add Task
-  2. View Tasks
-  3. Complete Task
-  4. Delete Task
-  5. Exit
-  Enter choice: 1
-  Enter task description: Finish C++ project
-  Task added.
+Usage Example<br>
+  --- TO DO LIST MENU ---<br>
+  1. Add Task<br>
+  2. View Tasks<br>
+  3. Complete Task<br>
+  4. Delete Task<br>
+  5. Exit<br>
+  Enter choice: 1<br>
+  Enter task description: Finish C++ project<br>
+  Task added.<br>
   
-  --- TO DO LIST MENU ---
-  2. View Tasks
+  --- TO DO LIST MENU ---<br>
+  2. View Tasks<br>
   
-  ----- TASK LIST -----
-  1. Finish C++ project [Pending]
-  ----------------------
+  ----- TASK LIST -----<br>
+  1. Finish C++ project [Pending]<br>
+  ----------------------<br>
 
-Binary File Storage:
-  The app saves all tasks to:tasks.dat
+Binary File Storage:<br>
+  The app saves all tasks to:tasks.dat<br>
     • Automatically created on first run.  <br>
     • Overwritten each time tasks change.  <br>
     • Stores raw Task objects (fixed-size, safe for binary operations). <br>
 
-Future Improvements
+Future Improvements<br>
   • Edit task descriptions. <br>
   • Add due dates or priority levels. <br>
   • Use JSON or plain text instead of binary.  <br>
