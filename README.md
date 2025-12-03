@@ -1,4 +1,4 @@
-ToDoCLI — A Simple C++ Command-Line To-Do List Manager (Introduction)
+ToDoCLI — A Simple C++ Command-Line To-Do List Manager (Introduction)<br>
 
   • A lightweight and efficient command-line To-Do List application built in C++. <br>
   • Tasks are stored persistently using binary file storage, ensuring your tasks remain saved across program restarts. <br>
@@ -30,16 +30,16 @@ Features:
 
 
 Project Structure: <br>
-  ToDoCLI
-  │
-  ├── main.cpp           # Menu-driven CLI program
-  ├── Task.h             # Task model class
-  ├── Task.cpp
-  ├── ToDoList.h         # Manages tasks and file operations
-  ├── ToDoList.cpp
-  └── tasks.dat          # Auto-generated binary storage file
+  ToDoCLI<br>
+  │<br>
+  ├── main.cpp           # Menu-driven CLI program<br>
+  ├── Task.h             # Task model class<br>
+  ├── Task.cpp<br>
+  ├── ToDoList.h         # Manages tasks and file operations<br>
+  ├── ToDoList.cpp<br>
+  └── tasks.dat          # Auto-generated binary storage file<br>
 
-• Class Overview
+• Class Overview<br>
   1. Task Class <br>
       File: Task.h & Task.cpp <br>
       Stores: <br>
